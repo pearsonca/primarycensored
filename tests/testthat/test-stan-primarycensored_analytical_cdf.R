@@ -18,7 +18,6 @@ test_that(
           obj <- new_pcens(
             pgamma,
             dunif, list(),
-            "pgamma", "dunif",
             shape = shape, rate = rate
           )
 
@@ -63,7 +62,6 @@ test_that(
           obj <- new_pcens(
             plnorm,
             dunif, list(),
-            "plnorm", "dunif",
             meanlog = meanlog, sdlog = sdlog
           )
 
@@ -108,7 +106,6 @@ test_that(
           obj <- new_pcens(
             pweibull,
             dunif, list(),
-            "pweibull", "dunif",
             shape = shape, scale = scale
           )
 
