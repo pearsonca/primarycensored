@@ -1,18 +1,16 @@
-# primarycensored 1.0.1.1000
-
-## Package
-
-- Revised approach to automatic discovery of distribution functions. This
-deprecates the `pdist_name` and `dprimary_name` arguments throughout. Users
-wishing to pass information about distributions (to potentially leverage
-analytical solutions) should use the newly introduced
-`attach_distribution_name()` function.
 
 # primarycensored 1.0.0.1000
 
 Development release.
 
 ## Package
+
+- Revised approach to automatic discovery of distribution functions. This soft
+deprecates the `pdist_name` and `dprimary_name` arguments throughout. Users
+wishing to pass distribution names (i.e. to potentially leverage
+analytical solutions) are advised to use the newly introduced
+`attach_distribution_name()` function. Adds transient dependency on `lifecycle`
+and `rlang` packages. See #188 by @pearsonca.
 
 ## Documentation
 
